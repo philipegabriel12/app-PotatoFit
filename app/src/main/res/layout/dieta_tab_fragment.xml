@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/calorias_bar"
+        style="@style/CircularDeterminateProgressBar"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:progress="0" />
+
+    <TextView
+        android:id="@+id/calorias_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="2000"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/calorias_bar"
+        app:layout_constraintEnd_toEndOf="@+id/calorias_bar"
+        app:layout_constraintStart_toStartOf="@+id/calorias_bar"
+        app:layout_constraintTop_toTopOf="@+id/calorias_bar"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <TextView
+        android:id="@+id/calrestante_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="cal restante(s)"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/calorias_bar"
+        app:layout_constraintEnd_toEndOf="@+id/calorias_bar"
+        app:layout_constraintStart_toStartOf="@+id/calorias_bar"
+        app:layout_constraintTop_toTopOf="@+id/calorias_bar"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <Button
+        android:id="@+id/alterar_dieta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="@color/white"
+        android:text="Alterar Dieta"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/calorias_bar"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/calorias_bar"
+        app:layout_constraintTop_toTopOf="@+id/calorias_bar"
+        app:layout_constraintVertical_bias="0.465" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addAgua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue_grey"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/menosAgua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue_grey"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addAgua"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <ProgressBar
+        android:id="@+id/agua_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="230dp"
+        android:layout_height="24dp"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/pb_agua"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toEndOf="@+id/menosAgua"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/agua_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ÁGUA"
+        app:layout_constraintBottom_toBottomOf="@+id/agua_bar"
+        app:layout_constraintEnd_toEndOf="@+id/agua_bar"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/agua_bar"
+        app:layout_constraintTop_toTopOf="@+id/agua_bar" />
+
+    <Spinner
+        android:id="@+id/spinnerSelectCopo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alterar_dieta" />
+</androidx.constraintlayout.widget.ConstraintLayout>

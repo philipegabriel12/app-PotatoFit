@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/drawable-hdpi/outline_account_circle_24.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/drawable/button_bg.xml" value="0.30572916666666666" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/drawable/circle.xml" value="0.1625" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/drawable/pb_agua.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/drawable/radio_normal.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/drawable/radio_selected.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/drawable/radio_selector.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/drawable/ring.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/drawable/text_bg.xml" value="0.30572916666666666" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/drawable/text_color.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/activity_add_dieta.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/activity_alterar_dieta.xml" value="0.25" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/activity_cadastro_tab_fragment.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/activity_dieta.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/activity_edit_dieta.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/activity_login_tab_fragment.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/activity_main.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/activity_potatofit.xml" value="0.22" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/cadastro_tab_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/calorias_tab_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/dieta_tab_fragment.xml" value="0.5" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/list_item.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/login_tab_fragment.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/progress_bar.xml" value="0.33" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/rendimento_tab_fragment.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/layout/toolbar.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/joaov/Documents/Materiais/10s/DEVAPP/DietaReborn/app/src/main/res/menu/popup_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
